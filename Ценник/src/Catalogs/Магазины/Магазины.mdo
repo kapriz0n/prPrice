@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae52e5c9-ca04-4f06-b27d-2485de3f58aa">
+  <producedTypes>
+    <objectType typeId="a7ad70b2-d3fe-4e35-aa8d-8d131e9a51aa" valueTypeId="5cb3ea41-939a-4950-b73f-59adcc993330"/>
+    <refType typeId="130e539c-2fd4-4768-a2a4-b510ee0e0413" valueTypeId="687b0fdf-ccb6-4473-90ab-2403e9e4709e"/>
+    <selectionType typeId="97b59bbd-685d-4cc7-85b6-05fdb9e9d298" valueTypeId="f1de76bb-d972-4e2d-b9f1-e78229979700"/>
+    <listType typeId="b475d936-711b-4611-8e1e-480001e69707" valueTypeId="837d2965-4dd1-44b3-b29d-6951d0913842"/>
+    <managerType typeId="01cb9e95-bb23-4857-b5f4-71b7b7c26480" valueTypeId="b58c0000-6518-4426-9922-66daff949ee6"/>
+  </producedTypes>
+  <name>Магазины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Магазины.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bce24d13-8be5-4090-9a3b-74c4ea872f70">
+    <name>Широта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="715543ce-dfb9-4d3a-95ca-da04efc83e9e">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="236ba7cc-73c2-4983-9e9c-fdbbb969585f">
+    <name>Долгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="953f6eb8-a209-460a-a00f-e32069d2daa3">
+  <producedTypes>
+    <selectionType typeId="3779993b-2bf7-4a35-b518-d3be79dd1405" valueTypeId="85c7224b-32c1-42b0-b483-c6b26e7cf827"/>
+    <listType typeId="0637e681-83b4-46a6-b6a5-fb5dac39f5b4" valueTypeId="17b787e6-eab6-4861-aee6-9eef4803622b"/>
+    <managerType typeId="fa492dd1-d86b-4ea1-8664-18bab35eabc5" valueTypeId="87a87408-ab6f-43a4-99c3-9af4a0582570"/>
+    <recordSetType typeId="ca7a3329-3497-44ce-82e1-a22fac983d01" valueTypeId="a10ffe0a-2819-4d4a-9ad9-d57d90e97685"/>
+    <recordKeyType typeId="870c264d-d863-4869-86a8-7a7d06965349" valueTypeId="39c788f3-88be-4232-8359-6421506d4b47"/>
+    <recordType typeId="b83ec098-e93d-45fd-9e29-499eed6c607d" valueTypeId="65f3287b-d2c7-4f83-83cd-e05af3f09002"/>
+    <recordManagerType typeId="fd7a9422-f9d4-42d9-b9fe-2bcc930d2cd9" valueTypeId="d8b7a7a7-9c59-4808-816c-8c378b544e48"/>
+  </producedTypes>
+  <name>ЦеныНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="622901fb-fc84-4ea9-a9d2-c4a4176bb333">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="3776a4c9-7adb-4b1d-a338-664d7555244e">
+    <name>Акция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="f31dd23d-7c48-48b3-b0d1-00dcec248999">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8c4b48c-ec70-49e6-8a2d-a5201aed3af5">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

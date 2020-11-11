@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fd764d2-350f-4613-b59b-6c68075ceffa">
+  <name>Ценник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценник</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="082a6c83-1b49-4854-9b53-158bfddf03e6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="717f4556-cae0-41b7-a767-1867314618eb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8e5fb72e-d3b1-4c49-b4e5-933e60fadb5b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="998408c0-ebe4-42ad-894e-3b7a3b81d4ea"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c5bbb7ab-f1d3-4356-8cb1-8116589d0b2d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ccdf43c7-9422-43a9-8d65-39c76c994168"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9cac398f-5368-4a86-8763-920ae2dd6e33"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>Camera</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>BackgroundLocation</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>Location</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>KaPriZ</value>
+  </briefInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="ea10427b-5900-423c-b550-d92030aa3063">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+</mdclass:Configuration>
